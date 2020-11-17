@@ -6,7 +6,7 @@ winform.add(
 button={cls="button";text='\uF0EE 获 取';left=590;top=421;right=759;bottom=454;db=1;dr=1;font=LOGFONT(h=-24;name='FontAwesome');z=2};
 button2={cls="button";text='\uF07C';left=511;top=421;right=555;bottom=454;db=1;dr=1;font=LOGFONT(h=-24;name='FontAwesome');z=4};
 edit={cls="edit";left=0;top=0;right=760;bottom=418;db=1;dl=1;dr=1;dt=1;edge=1;hscroll=1;multiline=1;vscroll=1;z=1};
-edit2={cls="edit";text="https://ai.bdstatic.com/file/44629338D57A4C1D953E973592EC2276";left=6;top=421;right=512;bottom=454;db=1;dl=1;dr=1;edge=1;font=LOGFONT(h=-16);z=3}
+edit2={cls="edit";text="https://www.htmlayout.cn/upload/image/20190201/1549016893753891.png";left=6;top=421;right=512;bottom=454;db=1;dl=1;dr=1;edge=1;font=LOGFONT(h=-16);z=3}
 )
 /*}}*/
  
