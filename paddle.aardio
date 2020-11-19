@@ -24,7 +24,8 @@ winform.button.oncommand = function(id,event){
             //OCR识别接口
             var ocr = http.api("https://www.paddlepaddle.org.cn/paddlehub-api/image_classification/");
             var result;
-            if(string.indexOf(string.lower(url),"http")){
+            //简单检测是否以http开始（忽略大小写）
+            if(string.startWith(url,"http",true)){
                 result = ocr.chinese_ocr_db_crnn_mobile( 
                     //调用网络图片
                     image_url = url;
